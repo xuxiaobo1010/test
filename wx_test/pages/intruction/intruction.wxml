@@ -1,0 +1,29 @@
+<!--pages/intruction/intruction.wxml-->
+<view class="intruction">
+  <view class="wrap">
+    <view class="top">考前须知</view>
+    <view class="content">
+      <view class="content_title">{{testName}}</view>
+      <view class="content_intro">本次考试为模拟测试，会从整套试题中随机抽取一定数量的题目进行测试！希望认真对待！</view>
+      <view class="content_type">
+        <view class="type_item"><text>单选题:</text>{{singlelength}}题</view>
+        <view class="type_item"><text>多选题:</text>{{multiplelength}}题</view>
+        <view class="type_item"><text>判断题:</text>{{judgelength}}题</view>
+        <view class="type_item"><text>材料题:</text>{{materiallength}}题</view>
+        <view class="type_item"><text>总题数:</text>{{total}}题</view>
+      </view>
+      <view class="content_item">本次考试时间 : <text>90</text>分钟</view>
+      <view class="content_item">本次考试抽取数 : <text>85</text>题</view>
+      <view class="content_item">单选题 : <text>40</text>题</view>
+      <view class="content_item">多选题 : <text>20</text>题</view>
+      <view class="content_item">判断题 : <text>20</text>题</view>
+      <view class="content_item">材料题 : <text>5</text>题</view>
+      <view class="content_item ">本套试卷考试成绩合格分数为 : <text>85</text>分</view>
+    </view>
+    <view class="buttom">
+      <view class="buttom_btn" data-id="{{id}}" data-cont="2" bindtap="handToTest">
+        进入考试
+      </view>
+    </view>
+  </view>
+</view>

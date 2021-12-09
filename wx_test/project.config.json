@@ -1,0 +1,228 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": []
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.14.0",
+  "appid": "wx2fbe9d9a89654736",
+  "projectname": "kaoshi",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "gamePlugin": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 8,
+      "list": [
+        {
+          "id": -1,
+          "name": "练",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "我",
+          "pathName": "pages/myinfo/myinfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "考试页面",
+          "pathName": "pages/index/exam/exam",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "章节显示",
+          "pathName": "pages/index/exam/exam",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "章节",
+          "pathName": "pages/chapter/chapter",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 5,
+          "name": "error",
+          "pathName": "pages/index/error/error",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "测试",
+          "pathName": "pages/test/test",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "end",
+          "pathName": "pages/index/end/end",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "日志",
+          "pathName": "pages/myinfo/log/log",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 9,
+          "name": "pages/index/exam/exam",
+          "pathName": "pages/index/exam/exam",
+          "query": "bank_id=1&id=11111111  &cont=0",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/myinfo/myinfo",
+          "pathName": "pages/myinfo/myinfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/topic/topic",
+          "pathName": "pages/topic/topic",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 13,
+          "name": "pages/index/test/test",
+          "pathName": "pages/index/test/test",
+          "query": "bank_id=1&id=11111111  &cont=2",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/test/test",
+          "pathName": "pages/test/test",
+          "query": "bank_id=1&id=123654    &cont=2",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/topic/topic",
+          "pathName": "pages/topic/topic",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/myinfo/logs/logs",
+          "pathName": "pages/myinfo/logs/logs",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/intruction/intruction",
+          "pathName": "pages/intruction/intruction",
+          "query": "bank_id=1&id=11111111  &cont=2",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/detail/detail",
+          "pathName": "pages/detail/detail",
+          "query": "objectid=c6e9b9d094",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/error/error",
+          "pathName": "pages/error/error",
+          "query": "bank_id=1&id=11111111  &cont=0",
+          "scene": null
+        },
+        {
+          "id": 20,
+          "name": "pages/errordetail/errordetail",
+          "pathName": "pages/errordetail/errordetail",
+          "query": "name=卷A",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/index/store/store",
+          "pathName": "pages/index/store/store",
+          "query": "bank_id=1&id=11111111  &cont=2",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

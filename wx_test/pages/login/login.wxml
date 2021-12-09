@@ -1,0 +1,45 @@
+<!--pages/login/login.wxml-->
+<view class="allView">
+<view class="marTopView">
+  <image src="https://wx.qlogo.cn/mmhead/Q3auHgzwzM7neLT84lV5THdYCiaBibadBnkiak5v4DBfJ2u6O65EcbMhg/0">
+  </image>
+</view>
+<view class="content_in">
+  <image class="in_img" src="../../images/phone.png"></image>
+  <input class="inputView" value="{{username}}" bindinput='userNameInput' placeholder-style="color:#ccc"  placeholder="请 输 入 账 号"/>
+</view>
+  <view class="content_in">
+    <image class="in_img" src="../../images/pwd.png"></image>
+    <input class="inputView" value="{{password}}" password="{{pwdStatus}}"  bindinput='userPasswordInput' placeholder-style="color:#ccc"  placeholder="请 输 入 密 码"/>
+  </view>
+    <button  class="btnView" bindtap="handleLogin" style="width:90%" > 登 录</button>
+ <view class="bottom">
+  <label class="checkbox">
+        <checkbox-group bindchange="changePwdStatus">
+          <checkbox  checked="{{!pwdStatus}}"/>查看密码
+        </checkbox-group>
+    </label>
+    <label class="checkbox">
+        <checkbox-group bindchange="changestatus">
+          <checkbox  checked="{{status}}"/>记住密码
+        </checkbox-group>
+    </label>
+ </view>
+</view>
+
+
+<!-- <view class="contain">
+  <view class="content">
+        <view class="avatar">
+            <image class="userinfo-avatar" src="../../images/study.jpg" background-size="cover"></image>
+        </view>
+        <input type="text" value="{{username}}" bindinput="userNameInput" placeholder='请输入您的身份证号' placeholder-class="phcolor"/>
+        <input type="text" value="{{password}}" bindinput="userPasswordInput" password="true" placeholder='请输入你的密码' placeholder-class="phcolor"/>
+        <button class="btn" bindtap="handleLogin">登录</button>
+        <label class="checkbox">
+        <checkbox-group bindchange="changestatus">
+          <checkbox value="cb" checked="{{status}}"/>记住密码
+        </checkbox-group>
+        </label>
+  </view>
+</view> -->

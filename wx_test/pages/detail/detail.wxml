@@ -1,0 +1,37 @@
+<!--pages/detail/detail.wxml-->
+<view class="wrap">
+  <view class="top">
+    本次考试成绩：
+  </view>
+  <view class="grade">
+    {{grade}}
+  </view>
+  <view class="testtime">
+    <text>耗时</text> : {{test.basedata.Comptime}}
+  </view>
+  <view class="testname">
+    试卷名:{{test.basedata.name}}
+  </view>
+  <view class="test-detail">
+    <view class="item green">
+      <view>总题数</view>
+      <view>{{total}}</view>
+    </view>
+    <view class="item green">
+      <view>答对</view>
+      <view>{{correct}}</view>
+    </view>
+    <view class="item red">
+      <view>答错</view>
+      <view>{{errLength}}</view>
+    </view>
+    <view class="item green">
+      <view>未答</view>
+      <view>{{notAnsLength}}</view>
+    </view>
+  </view>
+  <view class="bottom">
+    <view class="bottom-item border-blue" bindtap="handleToIndex"> <image class="img" src="../../images/test/home.png"></image> <view>主页</view></view>
+    <view class="bottom-item border-red" bindtap="handleTo" data-id="{{test.product.objectId}}" data-cont="2"> <image class="img_e" src="../../images/test/error.png"></image><view>错题</view></view>
+  </view>
+</view>

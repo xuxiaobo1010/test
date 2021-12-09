@@ -1,0 +1,52 @@
+/* pages/test/test.wxss */
+.wrap{
+  display: flex;
+  flex-direction: column;
+}
+.wrap-head{
+  background:-webkit-linear-gradient(top,#319ffb,#32cbcd);
+  color:#fff; 
+
+}
+.wrap-head view{
+  text-align: center;
+}
+.item{
+  width: 92%;
+  margin: 10px auto;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 2px;
+  padding: 4px 5px;
+}
+.top{
+  font-weight: 600;
+  padding: 5px;
+}
+.content{
+  display: flex;
+  justify-content: space-evenly;
+}
+.end{
+  text-align: center;
+  color: #adadad;
+}
+.detail{
+  flex: 1;
+  font-size: 14px;
+}
+.detail .comptime{
+  font-weight: 600;
+}
+.bottom{
+  font-size: 14px;
+
+}
+.bottom .createAt{
+  font-weight: 600;
+}
+.green{
+  color: #a6ffa6;
+}
+.red{
+  color: #ff0000;
+}

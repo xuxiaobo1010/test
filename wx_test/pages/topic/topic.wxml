@@ -1,0 +1,30 @@
+<!--pages/topic/topic.wxml-->
+<view class="topic">
+  <view class="wrap-head">
+    <view>我的试卷</view>
+    <!-- <view>考生:{{nick}}</view> -->
+  </view>
+  <view wx:for="{{list}}" wx:key="index" class="list">
+    <view class="item green" bindtap="showContent" data-index="{{index}}">
+      {{item.basedata.name}}
+    </view>
+    <view class="exercise" wx:if="{{currentIndex==index}}">
+      <view class="top">
+        <view class="item" bindtap="handleTo" data-id="{{item.product.objectId}}"  data-cont="0">
+          <image class="lab" src="../../images/topic/start.png"></image><text>开始练习</text>
+        </view>
+        <view class="item" bindtap="handleTo" data-id="{{item.product.objectId}}"  data-cont="1">
+          <image class="lab" src="../../images/topic/continue.png"></image><text>继续练习</text>
+        </view>
+      </view>
+      <view class="bottom">
+        <view class="item" bindtap="handleToTest" data-id="{{item.product.objectId}}" data-cont="2">
+          <image class="lab" src="../../images/topic/moni.png"></image><text>模拟测试</text>
+        </view>
+        <view class="item" bindtap="handletoErrDetail" data-name="{{item.basedata.name}}">
+          <image class="lab" src="../../images/tabbar/err.png"></image> <text>错题练习</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

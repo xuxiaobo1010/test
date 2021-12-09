@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/topic/topic",
+    "pages/test/test",
+    "pages/myinfo/myinfo",
+    "pages/intruction/intruction",
+    "pages/detail/detail",
+    "pages/myinfo/feedback/feedbook",
+    "pages/index/exam/exam",
+    "pages/login/login",
+    "pages/error/error",
+    "pages/errordetail/errordetail",
+    "pages/chapter/chapter",
+    "pages/type_pre/type_pre",
+    "pages/index/end/end",
+    "pages/index/store/store",
+    "pages/index/error/error",
+    "pages/myinfo/dashang/dashang",
+    "pages/myinfo/logs/logs",
+    "pages/myinfo/guanyu/guanyu",
+    "pages/index/test/test"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#4d82e6",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "建筑通",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#00ff00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/home-un.png",
+        "selectedIconPath": "images/tabbar/home-on.png"
+      },
+      {
+        "pagePath": "pages/topic/topic",
+        "text": "题库",
+        "iconPath": "images/tabbar/topic-un.png",
+        "selectedIconPath": "images/tabbar/topic-on.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "考试记录",
+        "iconPath": "images/tabbar/test-un.png",
+        "selectedIconPath": "images/tabbar/test-on.png"
+      },
+      {
+        "pagePath": "pages/myinfo/myinfo",
+        "text": "我的",
+        "iconPath": "images/tabbar/my-un.png",
+        "selectedIconPath": "images/tabbar/my-on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,17 @@
+var filters = {    
+  indexOf: function (str,str1) {       
+      return str.indexOf(str1) // 此处2为保留两位小数，保留几位小数，这里写几    
+  },
+  toStr: function (value) {       
+      return value.toString()
+  },
+  toNum: function (value) {       
+      return value.toNumber()
+  },
+}
+
+module.exports = {   
+  indexOf: filters.indexOf,
+  toStr: filters.toStr,
+  toNum: filters.toNum,//暴露接口调用
+}

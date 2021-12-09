@@ -1,0 +1,15 @@
+/* pages/error/error.wxss */
+.wrap-head{
+  line-height: 40px;
+  background:-webkit-linear-gradient(top,#319ffb,#32cbcd);
+  color:#fff; 
+}
+.wrap-head view{
+  text-align: center;
+}
+.item{
+  line-height: 40px;
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 0.5px solid #ccc;
+}

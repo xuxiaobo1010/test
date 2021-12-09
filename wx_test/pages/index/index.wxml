@@ -1,0 +1,48 @@
+<view class="container_index">
+  <!-- 轮播图层 -->
+  <swiper class="swiper_box" indicator-dots="{{dots}}" autoplay="{{autoplay}}" interval="{{interval}}"
+    duration="{{duration}}">
+    <block wx:for="{{banners}}" wx:key="index">
+      <swiper-item>
+        <image bindtap="handleTap" data-linkUrl="{{item.linkUrl}}" data-id="{{item.businessId}}" src="{{item.picUrl}}"
+          class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 导航栏 -->
+<view class="nav">
+   <view class="nav-item" bindtap="handleNavTo"
+   wx:for="{{navItems}}" wx:key="index" data-type="{{item.type}}" data-Url="{{item.url}}">
+     <image src="{{item.img}}"></image>
+     <view>{{item.text}}</view>
+   </view>
+   <!-- <view class="nav-item">
+     <image src="../../images/tabbar/c_test.png"></image>
+     <view>我的考题</view>
+   </view>
+   <view class="nav-item">
+     <image src="../../images/tabbar/test-on.png"></image>
+     <view>考试记录</view>
+   </view>
+   <view class="nav-item">
+     <image src="../../images/tabbar/exec.png"></image>
+     <view>最近练习</view>
+   </view>
+   <view class="nav-item">
+     <image src="../../images/tabbar/my-on.png"></image>
+     <view>我的</view>
+   </view> -->
+</view>
+<!-- 签到 -->
+   <!-- <view class="sign">
+     <image src="/images/qiandao.jpg" mode="widthFix"></image>
+   </view> -->
+  <!-- <view class="userinfo">
+    <button bindtap="bindSequence" class='type-btn1'> 顺序学习 </button>
+    <button bindtap="bindRandom" class='type-btn1'> 章节练题 </button>
+    <button bindtap="bindFavorite" class='type-btn1'> 专题练题 </button>
+    <button bindtap="bindStore" class='type-btn1'> 收藏 </button>
+    <button bindtap="bindError" class='type-btn1'> 错题 </button>
+  </view> -->
+
+</view>

@@ -1,0 +1,16 @@
+<!--pages/test/test.wxml-->
+<view class="wrap">
+<view class="wrap-head">
+   <view>模拟考试成绩表</view>
+   <view>考生:{{nick}}</view>
+</view>
+<view class="item" wx:for="{{list}}" wx:key="index" bindtap="handleToDetail" data-objectId="{{item.objectId}}">
+<view class="top">{{item.basedata.name}}</view>
+<view class="content">
+  <view class="detail">耗时: <text class="comptime">{{item.basedata.Comptime}}</text> </view>
+  <view class="detail">成绩:<text class="comptime {{item.basedata.grade>60?'green':'red'}}">{{item.basedata.grade}}</text></view>
+</view>
+<view class="bottom">交卷时间: <text class="createAt">{{item.createdAt}}</text> </view>
+</view>
+<view class="end">end</view>
+</view>

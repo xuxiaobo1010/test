@@ -1,0 +1,32 @@
+<!-- <view class="timeline-container"> -->
+  <view class="horView">
+  <text class="textName">姓　　名:</text>
+  <input class="inputName" value="{{mNick}}" confirm-type="next" bindinput='inputTilte1' auto-focus placeholder=""/>
+</view>
+
+<view class="linerView"></view>
+<view class="horView">
+  <text class="textName">手机号码:</text>
+  <input class="inputName" value="{{mPhone}}" type="number" bindinput='inputTilte2' confirm-type="done" maxlength="11"  placeholder=""/>
+</view>
+<!-- <view class="horView">
+  <text class="textName">邮　　箱:</text>
+  <input class="inputName" value="{{mEmail}}" type="text" bindinput='inputTilte3'   placeholder=""/>
+</view> -->
+<button class='btnAddView' bindtap="onSaveUser" style="width:90%" >
+    <view>保存</view>
+ </button>
+ <view class='anit {{show? "show": ""}}'>{{showMsg}}</view>
+  <!-- <block wx:for="{{newsList}}" wx:key="item.id">
+    <view class="timeline">
+      <view class="dotline">
+        <view class="line"></view>
+        <view class="dot"></view>
+      </view>
+      <view class="content">
+        <text class="course">{{item.time}}</text>
+        <text class="chapter">{{item.desc}}</text>
+      </view>
+    </view>
+  </block> -->
+<!-- </view> -->

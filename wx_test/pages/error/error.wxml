@@ -1,0 +1,10 @@
+<!--pages/error/error.wxml-->
+<view class="wrap">
+  <view class="wrap-head">
+    <view>错题</view>
+    <!-- <view>考生:{{nick}}</view> -->
+  </view>
+  <view class="item" bindtap="handleTo" data-name="{{item}}" wx:for="{{list}}" wx:key="index">
+         {{item}}
+</view>
+</view>

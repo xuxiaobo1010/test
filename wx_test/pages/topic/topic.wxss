@@ -1,0 +1,46 @@
+/* pages/topic/topic.wxss */
+.wrap-head{
+  line-height: 30px;
+  background:-webkit-linear-gradient(top,#319ffb,#32cbcd);
+  color:#fff; 
+}
+.wrap-head view{
+  text-align: center;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+}
+.list .item{
+  display: flex;
+  justify-content: center;
+}
+.list .green{
+ color: #2b6d10;
+}
+.exercise{
+  display: flex;
+  flex-direction: column;
+
+}
+.top{
+  display: flex;
+}
+.bottom{
+  display: flex;
+}
+.item{
+  flex: 1;
+  line-height: 40px;
+  color: #6b95b8;
+  font-weight: 600;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.item .lab{
+  margin-top: 11px;
+  width: 18px;
+  height: 18px;
+  padding-right: 4px;
+}

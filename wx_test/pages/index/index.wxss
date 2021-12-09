@@ -1,0 +1,82 @@
+/**index.wxss**/
+/* page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+} */
+.container_index{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* flex-direction:center; */
+}
+/* 轮播图 */
+.swiper_box {
+  width: 100%;
+  height: 400rpx;
+}
+swiper-item image {
+  width: 90%;
+  height: 90%;
+  margin: 5% 5%;
+  border-radius: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+/* nav */
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nav .nav-item{
+  width: 90px;
+  height: 90px;
+  /* background-color: #0000ff; */
+  display: flex;
+  margin: 5px 30px;
+  box-sizing: border-box;
+  flex-direction: column;
+
+}
+
+/* .nav .nav-item:nth-child(1){
+  margin-right:30px;
+} */
+.nav .nav-item image{
+  margin: 5px auto;
+  width:54px;
+  height: 54px;
+  border-radius: 27px;
+}
+.nav .nav-item view{
+  text-align: center;
+  line-height: 25px;
+}
+
+/* 签到 */
+.sign{
+  width: 100%;
+  margin: 10px 0;
+}
+.sign image{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.type-btn{
+  min-width: 500rpx;
+  border-radius: 30rpx;
+  border: solid #B4B7BA 8rpx;
+  margin: 30rpx;
+}
+.type-btn1{
+  width: 500rpx;
+  border-radius: 30rpx;
+  border: solid #B4B7BA 8rpx;
+  margin: 30rpx;
+
+
+}
